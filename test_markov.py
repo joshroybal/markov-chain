@@ -4,7 +4,7 @@ import sys
 from time import time
 from markov import markov_chain
 
-def main(script, filename='cicerto.txt', n=100, order=2):
+def main(script, filename='cicero.txt', n=100, order=2):
     try:
         n = int(n)
         order = int(order)
